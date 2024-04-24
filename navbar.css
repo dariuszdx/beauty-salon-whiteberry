@@ -10,7 +10,7 @@
     color: #54595f; 
     filter: brightness(100%);
     font-family: "Open Sans", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     transition: opacity 0.2s ease, color 0.2s ease; /* Dodaję transition dla koloru */
 }
 
