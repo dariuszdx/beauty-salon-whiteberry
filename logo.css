@@ -1,0 +1,21 @@
+.logo {
+    margin-right: 400px; 
+    filter: brightness(90%); /
+}
+
+.img {
+    width: 100%;
+    height: 50vh; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+@media screen and (min-width: 768px) {
+    .img {
+        width: 50%; 
+    }
+}
+.background-colour{
+    background-color: #f9e04b;
+    filter: brightness(10%)
+}

@@ -1,0 +1,38 @@
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #54595f; 
+    filter: brightness(100%);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    transition: opacity 0.2s ease, color 0.2s ease; /* Dodaję transition dla koloru */
+}
+
+.link:hover {
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 2px;
+    color: #c4a648;
+    opacity: 1;
+    transition-delay: 0.01s; /* Opóźnienie przejścia */
+}
+
+.navbar > .link {
+    margin-right: 40px;
+    text-align: right;
+}
+
+.navbar > .link:last-child {
+    margin-right: 10px;
+}
+
+.navbar > .link:first-child {
+    margin-left: 0;
+}
+
